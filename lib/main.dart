@@ -15,7 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
           appBar: AppBar(
-            title: Text(provider.text.toString()),
+            title: const Text("School App"),
+            centerTitle: true,
+            leading: const Icon(Icons.school),
           ),
           body: HomePage()),
     );
